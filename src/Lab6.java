@@ -6,10 +6,16 @@ public class Lab6 {
         List<Integer> myList = new ArrayList<>();
         LogicalOperations op = new LogicalOperations();
         List<Integer> mySecondList = op.getPopulatedList(100);
+        List<Integer> myBackwardsList = op.getPopulatedListBackwards(100);
         System.out.println(mySecondList);
 
-        System.out.println("Exercitiul 4:");
-        List<Integer> myBackwardsList = op.PopulatedListBackwards(100);
-        System.out.println(myBackwardsList);
+        System.out.println("Exercitiul 3:");
+        op.printListFromNumber(mySecondList, 50);
+
+        System.out.println("Exercitiul 4:" + myBackwardsList);
+
+
+
+
     }
 }
